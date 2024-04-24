@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund Me App</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./loading.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="header">
+            <h1 class="title">Fund Me App</h1>
+            <button class="connect-btn"></button>
+        </div>
+        <div class="content">
+            <div class="fund-box">
+                <input type="number" placeholder="Enter amount" class="fund-input">
+                <button class="fund-btn">Fund</button>
+            </div>
+            <div class="list-show">
+                <div class="left title">
+                    当前余额：<span class="balance">0</span>
+                    <button class="withdraw-btn">提现</button>
+                </div>
+                <div class="right title">
+                    敬请期待！
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="load-container">
+        <span class="loading"></span>
+        <span class="loading-text">正在上链，请稍候...</span>
+    </div>
+
+
+    <script type="module" src="./index.js"></script>
+
+</body>
+
+</html>
